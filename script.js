@@ -2,15 +2,12 @@
 
 const buttonAdd = document.createElement('button');
 buttonAdd.textContent = 'добавить';
-buttonAdd.classList.add('add');
 
 const buttonDelete = document.createElement('button');
 buttonDelete.textContent = 'удалить';
-buttonDelete.classList.add('delete');
 
 const buttonToggle = document.createElement('button');
 buttonToggle.textContent = 'добавить/удалить класс';
-buttonToggle.classList.add('toggle');
 
 document.querySelector('body');
 document.body.append(buttonAdd);
